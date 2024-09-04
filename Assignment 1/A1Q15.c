@@ -11,16 +11,16 @@ void main()
     marks=marks%50;
     switch(marks)
     {
-    case 10:
-    case 9:
-    case 8:printf("A division");
-           break;
-    case 7:printf("B division");
-           break;
-    case 6:printf("C divison");
-           break;
-    default:printf("D division");
-           break;
+      case 10:
+      case 9:
+      case 8:printf("A division");
+             break;
+      case 7:printf("B division");
+             break;
+      case 6:printf("C divison");
+             break;
+      default:printf("D division");
+             break;
     }
   }
   else
