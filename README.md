@@ -20,7 +20,6 @@ To execute the file, we must simply:
 
 There is an image titled 'Demo.png' in the folder which shows the basic layout of executing the program
 
-
 ## Authors
 
 - [@LeonSimonLobo](https://github.com/LeonSimonLobo)
