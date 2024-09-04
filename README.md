@@ -17,6 +17,8 @@ To execute the file, we must simply:
 3) The file is compiled and saved in a file titled 'a.exe'. Enter 'a'.  
 4) The program will then be run.
 
+Each code is titled 'A#Q#' where 'A' stands for 'Assignment' and 'Q' stands for 'Question'. The Question numbers can be seen in the 'IoP Lab.pdf' file. The outputs of the programs are in png format with titles corresponding to the code names.
+
 ## Demo
 
 There is an image titled 'Demo.png' in the folder which shows the basic layout of executing the program
