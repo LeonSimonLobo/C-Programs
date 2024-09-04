@@ -3,7 +3,7 @@
 
 This project is a collection of code written for the assignments in lab of the subject IoP(Introduction of Programming) in the first semester of my B.Tech degree in Artificial Intelligence at SVNIT College.
 
-This project is for Dr. Praveen Kumar Chandaliya, our professor of IoP subject,for future use or for anyone curious in the beginning of my C programming journey.
+This project is for Dr. Praveen Kumar Chandaliya, our professor of IoP subject, for future use or for anyone curious in the beginning of my C programming journey.
 
 
 ## Features
