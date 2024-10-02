@@ -9,7 +9,7 @@ This project is for Dr. Praveen Kumar Chandaliya, our professor of IoP subject, 
 ## Features
 
 The questions of lab are given in the pdf titled 'IoP Lab'. This can be used to understand which code is in reference to which question.
-Includes Assignment 1-4 in seperate files.
+Includes Assignment 1-6 in seperate files.
 The code has been compiled by MinGW compiler, written in notepad and executed on Command Prompt.
 To execute the file, we must simply:  
 1) Type 'cd' then paste the address of where our source file is located. Press Enter.
