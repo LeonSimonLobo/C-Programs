@@ -1,49 +1,38 @@
-//Program to print all permutations of a given string using pointers.
-#include<stdio.h>
-#include<conio.h>
-#include<string.h>
-int fact(int a);
-void main()
+//Program to compute permutations
+
+#include <stdio.h>
+#include <string.h>
+
+void swap(char *x, char *y)
 {
-  int len,j;
-  char a[5],temp;
-  printf("Enter a string of maximum 5 characters:");
-  gets(a);
-  len=strlen(a);
-  for(int i=1;i<=(fact(len)/(len-1));i++)
-  {
-    if(i>=len+1)
-    {
-      temp=a[1];
-      a[1]=a[3];
-      a[3]=temp;
-      printf("%s ",a);
-      for(j=0;j<len-2;j++)
-      {
-        temp=a[j];
-        a[j]=a[j+1];
-	a[j+1]=temp;
-	printf("%s ",a);
-      }
-    }
+    char temp;
+    temp = *x;
+    *x = *y;
+    *y = temp;
+}
+
+void pmt(char *a, int first, int last)
+{
+    int i;
+    if (first == last)
+        printf("%s\n", a);
     else
     {
-      for(j=0;j<len-1;j++)
-      {
-        temp=a[j];
-        a[j]=a[j+1];
-	a[j+1]=temp;
-	printf("%s ",a);
-      }
+        for (i = first; i <= last; i++)
+        {
+            swap((a + first), (a + i));
+            pmt(a, first + 1, last);
+            swap((a + first), (a + i));
+        }
     }
-  }
 }
-int fact(int a)
+
+int main()
 {
-  int factorial=1;
-  for(int i=a;i>1;i--)
-  {
-    factorial=factorial*i;
-  }
-  return factorial;
+    char str[10];
+    printf("Enter the character\n");
+    scanf("%s", str);
+    int n = strlen(str);
+    pmt(str, 0, n-1);
+    return 0;
 }
